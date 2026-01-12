@@ -58,6 +58,8 @@ const Header = () => {
                   <div className="dot" />
                   <NavLink title="My Skills" />
                   <div className="dot" />
+                  <NavLink title="Experience" />
+                  <div className="dot" />
                   <NavLink title="FAQ" />
                 </li>
 
@@ -81,8 +83,6 @@ const Header = () => {
                 </li>
 
                 <li className="nav-li">
-                  <NavLink title="Experience" />
-                  <div className="dot" />
                   <NavLink title="Projects" />
                   <div className="dot" />
                   <NavLink title="Resume" />

@@ -46,20 +46,20 @@ const Resume = () => {
                         </div>
 
                         {/* Right Side: Interactive Preview Card */}
-                        <div className="flex-1 w-full relative group">
+                        <div className="flex-1 w-full flex justify-center items-center relative group">
                             <div
                                 onClick={() => setIsExpanded(true)}
-                                className="download_preview-before download_preview-after rounded-40 relative border-2 border-s5 overflow-hidden bg-s1 min-h-[500px] flex items-center justify-center cursor-pointer transition-transform duration-500 hover:scale-[1.02] active:scale-95"
+                                className="download_preview-before download_preview-after rounded-40 relative border-2 border-s5 overflow-hidden bg-s1 w-full max-w-[450px] aspect-[1/1.41] flex items-center justify-center cursor-pointer transition-transform duration-500 hover:scale-[1.02] active:scale-95 shadow-2xl"
                             >
                                 <iframe
-                                    src={`${resumeUrl}#toolbar=0&navpanes=0&scrollbar=0`}
-                                    className="w-full h-[600px] rounded-3xl pointer-events-none"
+                                    src={`${resumeUrl}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
+                                    className="w-full h-full pointer-events-none scale-[1.01]"
                                     title="Resume Preview"
                                 />
                                 {/* Click to Expand Overlay */}
-                                <div className="absolute inset-0 bg-s1/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+                                <div className="absolute inset-0 bg-s1/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                                     <div className="bg-p1/20 backdrop-blur-md px-6 py-3 rounded-full border border-p1/30">
-                                        <p className="base-bold text-p4 uppercase">Click to Expand</p>
+                                        <p className="base-bold text-p4 uppercase">View Full Resume</p>
                                     </div>
                                 </div>
                                 <div className="absolute inset-0 pointer-events-none border-4 border-s1 rounded-40" />
