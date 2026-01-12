@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/sk_devane_portfolio/",
+  base: "/SKDevane_Data_Portfolio/",
   plugins: [react()],
   resolve: {
     dedupe: ['react', 'react-dom', 'three'],
