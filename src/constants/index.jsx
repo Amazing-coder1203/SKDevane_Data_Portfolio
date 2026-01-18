@@ -249,48 +249,48 @@ export const testimonials = [
     role: "Data Analyst Intern",
     avatarUrl: "images/portfolio/tickertactics_logo.png",
     comment:
-      "Designed and scaled Python-based market data processing systems for equities, crypto, and derivatives. improved downstream query performance by ~40% using Parquet optimization.",
+      "Architected and implemented high-performance trade execution engines. Optimized system throughput by 30% through advanced multithreading and efficient data structures.",
   },
   {
     id: "1",
     name: "Soul AI",
-    role: "Freelance Engineer",
+    role: "Freelancer",
     avatarUrl: "images/portfolio/soul_ai_logo.png",
     comment:
-      "Evaluated AI output accuracy and refined prompts, leading to a 15-20% improvement in model efficiency. Utilized statistical evaluation to identify patterns.",
+      "Analyzed and evaluated AI model outputs using statistical and analytical methods to identify patterns and improve response quality. Contributed to prompt refinements and evaluation strategies, resulting in a 15 to 20 percent improvement in overall model efficiency and reliability.",
   },
   {
     id: "2",
     name: "Deloitte Australia",
-    role: "Data Analytics Intern",
+    role: "Data Forensic Analyst Simulation",
     avatarUrl: "images/portfolio/deloitte_logo.png",
     comment:
-      "Completed forensic technology simulation focusing on structured data analysis, quality assessment, and insight generation using Python.",
+      "Worked as a Data Analytics Intern on a forensic technology simulation, analyzing structured datasets using Python and spreadsheets. Assessed data quality, performed exploratory analysis, and delivered insights to support data driven decision making.",
   },
   {
     id: "3",
-    name: "ShopAffordable",
-    role: "Full-Stack Project",
-    avatarUrl: "images/portfolio/shopfordable.png",
+    name: "DTU ALTAIR",
+    role: "Software Engineer and \n Head of Corporate Strategy",
+    avatarUrl: "images/portfolio/dtualtair_logo.png",
     comment:
-      "Built a full-stack e-commerce platform with real-time inventory and analytics, improving sales tracking for 100+ SKUs.",
+      "Led sponsorships, partnerships, and outreach for DTU’s official robotics team. Secured ₹10 lakh in funding and supported GenAI, documentation, and data visualization initiatives, contributing to multiple national and international competition wins.",
   },
   {
     id: "4",
-    name: "Amazon Analytics",
-    role: "Power BI Dashboard",
-    avatarUrl: "images/portfolio/amazondash.png",
+    name: "DPPL",
+    role: "Consultant Intern",
+    avatarUrl: "images/portfolio/dppl_logo.png",
     comment:
-      "Developed an interactive dashboard analyzing 128K+ Amazon India sales records, uncovering category trends and growth insights.",
+      "Supported India’s first digital library initiative in police stations. Helped expand DPPL from Delhi to Maharashtra, empowering 1.4 lakh plus girls and providing education to 480 plus underprivileged children.",
   },
-  {
-    id: "5",
-    name: "African Migration",
-    role: "Research & Visualization",
-    avatarUrl: "images/portfolio/africanmig.png",
-    comment:
-      "Analyzed migration data from 42 countries and 85+ conflicts, producing dashboards that supported humanitarian planning.",
-  },
+  // {
+  //   id: "5",
+  //   name: "African Migration",
+  //   role: "Research & Visualization",
+  //   avatarUrl: "images/portfolio/africanmig.png",
+  //   comment:
+  //     "Analyzed migration data from 42 countries and 85+ conflicts, producing dashboards that supported humanitarian planning.",
+  // },
 ];
 
 
